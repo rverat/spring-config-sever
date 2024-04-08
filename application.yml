@@ -1,0 +1,8 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-repository: true
+    service-url:
+      defaultZone: http://localhost:9180/eureka/
+    instance:
+      hostname: localhost
